@@ -6,7 +6,7 @@ document.querySelector('.tecla_pom').onclick = tocaSom;
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
-listaDeTeclas[0].onclick = tocaSomPom;
+listaDeTeclas[0].onclick = tocaSom;
 
 let contador = 0;
 
