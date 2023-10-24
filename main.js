@@ -2,7 +2,7 @@ function tocaSom(idElementoAudio){
     document.querySelector(idElementoAudio).play();
 }
 
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+document.querySelector('.tecla_pom').onclick = tocaSom;
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
